@@ -18,12 +18,8 @@
 </head>
 
 <body>
-    <div id="barba-wrapper">
-        <div class="barba-container">
-            <div class="diff">h2</div>
-        </div>
-    </div>
-    <script src="app.js"></script>
+    {% for task in tasks %}
+    <p>{{task}}</p>{% endfor %}
 </body>
 
 </html>
