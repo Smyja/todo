@@ -18,6 +18,9 @@
 </head>
 
 <body>
+    <form>{{form.title}}
+        <input type="submit" name="Create Task">
+    </form>
     {% for task in tasks %}
     <p>{{task}}</p>{% endfor %}
 </body>
